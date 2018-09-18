@@ -259,6 +259,21 @@
 	color: #333;
 }
 
+.leftmenu dl dd ul li a:hover {
+	color: #009bed;
+	border-top: 1px solid #b8c8d2;
+	border-left: 1px solid #b8c8d2;
+	border-bottom: 1px solid #b8c8d2;
+}
+
+.leftmenu dl dd ul li a.current-menuleft {
+	background: #fff url(../img/ico_small.png) right -90px no-repeat;
+	font-weight: bold;
+	border-top: 1px solid #b8c8d2;
+	border-left: 1px solid #b8c8d2;
+	border-bottom: 1px solid #b8c8d2;
+}
+
 /*main*/
 
 .rightmain {
@@ -312,21 +327,85 @@ body.hideleftmenu .rightmain {
 	background-color: #06a520;
 }
 
-
-
-
-
-
-
 /*首页-end*/
 
+/*栏目管理*/
 
+.pos {
+	height: 35px;
+	line-height: 35px;
+	padding-left: 20px;
+	background: url(../img/icon_home.png) left center no-repeat;
+	font-size: 14px;
+	font-weight: bold;
+	color: #0084D3;
+	border-bottom: 1px solid #ccc;
+}
 
+.opreate,.gsjs-form,.tablewrap, .list {
+	margin: 10px;
+}
 
+/*公司介绍*/
 
+.gsjs-form dl {
+	margin: 20px 0;
+}
 
+.gsjs_title {
+	width: 10%;
+	font-size: 14px;
+}
 
+.textarea-default {
+	width: 600px;
+	height: 90px;
+}
 
+/*网站设置*/
+.itab ul li {
+    float: left;
+    margin-right: 5px;
+    border: 1px solid #DCE3ED;
+    background: #EAEEF4;
+}
+.itab ul li.current-item {
+    border-top: 1px solid #DCE3ED;
+    border-left: 1px solid #DCE3ED;
+    border-right: 1px solid #DCE3ED;
+    border-bottom: 1px solid #fff;
+    background: #fff;
+} 
+.itab ul li a {
+    display: block;
+    font-size: 14px;
+    color: #333;
+    padding: 2px 10px;
+}
+.itab ul li.current-item a {
+    font-weight: bold;
+}
+.itabcontent dl {
+    margin: 20px 0;
+}
+.itabcontent dl dt {
+    width: 12%;
+    float: left;
+    font-size: 14px;
+}
+.itabcontent dl dt.surebtn {
+    text-indent: -9999px;
+}
+.itabcontent dl dd {
+    width: 600px;
+    float: left;
+}
+.itabcontent dl dd input[type="text"] {
+    width: 300px;
+}
+.itabcontent dl dd input[type="radio"] {
+    vertical-align: top;
+}
 
 
 

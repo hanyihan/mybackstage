@@ -46,6 +46,17 @@ $(function(){
 	    $(this).addClass('current-menuleft').parent().siblings().children().removeClass('current-menuleft');
 	    $(this).parents('dl').siblings().find('dd ul li a').removeClass('current-menuleft');
 	});
+
+	// 栏目管理-全选
+	
+	$('#all').click(function(){
+		if($(this).prop('checked')) {
+			$('#datalist :checkbox').prop('checked', true);
+		}
+		else {
+			$('#datalist :checkbox').prop('checked', false);
+		}
+	});
 });
 
 
